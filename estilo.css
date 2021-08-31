@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightgray;
+}
+
+
+/*INICIO BARRA DE NAVEGACION*/
+
+nav{
+    z-index: 10;
+    width: 100%;
+    height: 3em;
+    background-color: #ff5435;
+}
+
+nav p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bolder;
+    float: left;
+    line-height: 1.6em;
+    font-size: 2em;
+    margin-left: 1em;
+    cursor: default;
+}
+
+/*FIN BARRA DE NAVEGACION*/
+
+/*INICIO ACCESOS*/
+
+main{
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 50em;
+}
+
+.accesos-rapidos{
+    margin: 8vh auto 5vw auto;
+    min-width: 85%;
+    max-width: 100%;
+    height: 40vh;
+    background-color: white;
+    text-align: center;
+}
+
+.acceso{
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+    margin-top: 10vh;
+}
+
+.icono-acceso{
+    display: inline-block;
+    background-color: #ff5435;
+    font-size: 6vh;
+    width: 12vh;
+    height: 12vh;
+    border-radius: 25%;
+}
+
+.icono-acceso a{
+    display: inline-block;
+    margin-top:25%;
+    color: white;
+    text-decoration: none;
+
+}
+
+.descrip-acceso{
+    margin-top: 3vh;
+    white-space: nowrap;
+    text-transform: uppercase;
+    cursor: default;
+}
+
+
+
+@media only screen and (max-width:482px) {
+    .accesos-rapidos{
+        width: 90%;
+    }
+
+    .descrip-acceso{
+        font-size: 12px;
+    }
+    
+
+}
+
+/*FIN ACCESOS*/
+
+/*INICIO SALDO*/
+
+.mi-saldo{
+    margin: auto;
+    background-color: white;
+    cursor: default;
+}
+
+.cabecera-saldo{
+    background-color: tomato;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    font-size: 1.4em;
+    font-weight: bolder;
+}
+
+.saldo-total{
+    padding: 1.5em 0;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bolder;
+    margin-right: 0.8vw;
+}
+
+@media only screen and (max-width:482px) {
+    .mi-saldo{
+        width: 90%;
+    }
+
+    .cabecera-saldo{
+        padding: 1em 0;
+        font-size: 1em;
+        
+    }
+
+}
+
+/*FIN SALDO*/
+
+/*ESTILOS DE BOLETO*/
+/*INICIO CONTROLES*/
+
+.volver{
+    display: inline-block;
+    color: #2f2f2f;
+    text-decoration: none;
+
+}
+
+/*FIN CONTROLES*/
+
+/*INICIO BOLETO*/
+.boleto{
+    margin: 1em auto 0 auto;
+    display: inline-block;
+    background-color: white;
+    width: 80vh;
+    height: 80vh;
+}
+
+.controles-boleto{
+    display: block;
+    margin-top: 1em;
+    text-align: center;
+}
+
+
+.boton{
+    margin: auto;
+    display: block;
+    width: 10vw;
+    background-color: #ff5435;
+    color: white;
+    text-align: center;
+    padding: 2vh 0;
+    text-decoration: none;
+    border-radius: 10%;
+}
+
+
+@media only screen and (max-width:482px) {
+    .boleto{
+        width: 95vw;
+        height: 95vw;
+    }
+    .boton{
+        width: 30vw;
+    }
+}
+/*FIN BOLETO*/
