@@ -3,8 +3,8 @@
     </head>
     <body>
         <style>
-            body{
-                background-color:red;
+            body {
+                background-image: url("landing.png");
             }
         </style>
 
