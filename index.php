@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+<?php 
+    header("Location:duck.com");
+?>
+<!--<!DOCTYPE html>
 <html lang="es">
     <head>
         <meta charset="UTF-8">
@@ -34,4 +37,4 @@
             </div>
         </main>
     </body>
-</html>
+</html> -->
