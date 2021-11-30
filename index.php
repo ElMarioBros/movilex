@@ -3,11 +3,11 @@
     </head>
     <body>
         <style>
-            body {
+            /*body {
                 background-image: url("landing.png");
-            }
+            }*/
         </style>
-
+        <img src="landing.png" width="100%" alt="caborca">
     </body>
 </html>
 <!--<!DOCTYPE html>
