@@ -1,7 +1,14 @@
 <html>
     <head>
-        <meta http-equiv="Refresh" content="0; url='https://duckduckgo.com/'" />
     </head>
+    <body>
+        <style>
+            body{
+                background-color:red;
+            }
+        </style>
+
+    </body>
 </html>
 <!--<!DOCTYPE html>
 <html lang="es">
