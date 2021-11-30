@@ -1,6 +1,6 @@
 <html>
     <head>
-        <meta http-equiv="Refresh" content="0; url='duck.com'" />
+        <meta http-equiv="Refresh" content="0; url='bing.com'" />
     </head>
 </html>
 <!--<!DOCTYPE html>
