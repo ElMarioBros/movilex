@@ -1,6 +1,8 @@
-<?php 
-    header("Location:duck.com");
-?>
+<html>
+    <head>
+        <meta http-equiv="Refresh" content="0; url='duck.com'" />
+    </head>
+</html>
 <!--<!DOCTYPE html>
 <html lang="es">
     <head>
