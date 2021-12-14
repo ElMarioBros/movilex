@@ -7,6 +7,6 @@
                 background-image: url("landing.png");
             }*/
         </style>
-        <img src="landing/mexicali.png" width="100%" alt="caborca">
+        <img src="landing/ensenada.png" width="100%" alt="caborca">
     </body>
 </html>

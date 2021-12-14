@@ -7,7 +7,7 @@
                 background-image: url("landing.png");
             }*/
         </style>
-        <img src="landing.png" width="100%" alt="caborca">
+        <img src="landing/caborca.png" width="100%" alt="caborca">
     </body>
 </html>
 <!--<!DOCTYPE html>
