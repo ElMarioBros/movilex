@@ -1,4 +1,4 @@
-<html>
+<!--<html>
     <head>
     </head>
     <body>
@@ -9,8 +9,9 @@
         </style>
         <img src="landing/caborca.png" width="100%" alt="caborca">
     </body>
-</html>
-<!--<!DOCTYPE html>
+</html> -->
+
+<!DOCTYPE html>
 <html lang="es">
     <head>
         <meta charset="UTF-8">
@@ -46,4 +47,4 @@
             </div>
         </main>
     </body>
-</html> -->
+</html>
