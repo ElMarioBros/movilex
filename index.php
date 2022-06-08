@@ -19,21 +19,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://kit.fontawesome.com/13c822f27c.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="estilo.css">
-        <title>MOVILEX</title>
+        <title>MigGo</title>
     </head>
     <body>
         <nav>
-            <p>MOVILEX</p>
+            <p>MigGo</p>
         </nav>
         <main>
             <div class="accesos-rapidos">
                 <div class="acceso">
                     <div class="icono-acceso"><a href="#"><i class="fas fa-list"></i></a></div>
-                    <p class="descrip-acceso">Historial<br/>de viajes</p>
+                    <p class="descrip-acceso">Mis<br/>Ordenes</p>
                 </div>
                 <div class="acceso">
                     <div class="icono-acceso"><a href="boleto.php"><i class="fas fa-qrcode"></i></a></div>
-                    <p class="descrip-acceso">Generar<br/>Boleto</p>
+                    <p class="descrip-acceso">Generar<br/>Código</p>
                 </div>
                 <div class="acceso">
                     <div class="icono-acceso"><a href="#"><i class="fas fa-credit-card"></i></a></div>
@@ -43,7 +43,7 @@
             
             <div class="mi-saldo">
                 <div class="cabecera-saldo">Mi Saldo</div>
-                <div class="saldo-total">$  132</div>
+                <div class="saldo-total">$  1320</div>
             </div>
         </main>
     </body>

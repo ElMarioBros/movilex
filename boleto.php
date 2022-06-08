@@ -1,13 +1,13 @@
 <?php
 
-    include('phpqrcode/qrlib.php');
+    //include('phpqrcode/qrlib.php');
 
-    $ruta = 'QR_img/';
-    $archivo = $ruta.uniqid().'.png';
-    $boleto_ID = '12345';
+    //$ruta = 'QR_img/';
+    //$archivo = $ruta.uniqid().'.png';
+    //$boleto_ID = '12345';
 
 
-    QRcode::png($boleto_ID,$archivo,'L',10); 
+    //QRcode::png($boleto_ID,$archivo,'L',10); 
 
 
 ?>
@@ -20,17 +20,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://kit.fontawesome.com/13c822f27c.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="estilo.css">
-        <title>MOVILEX</title>
+        <title>MigGo</title>
     </head>
     <body>
         <nav>
-            <p>MOVILEX</p>
+            <p>MigGo</p>
         </nav>
         <main>
             <div class="boleto">
-                <?php
-                    echo "<center><img src='$archivo'></center>";
-                ?>
+                    <center><img src='QR_img/612d904135a6b.png'></center>
             </div>
             <div class="controles-boleto">
                 <a href="index.php" class="boton">Volver</a>
