@@ -1,13 +1,13 @@
 <?php
 
-    include('phpqrcode/qrlib.php');
+    //include('phpqrcode/qrlib.php');
 
-    $ruta = 'QR_img/';
-    $archivo = $ruta.uniqid().'.png';
-    $boleto_ID = '12345';
+    //$ruta = 'QR_img/';
+    //$archivo = $ruta.uniqid().'.png';
+    //$boleto_ID = '12345';
 
 
-    QRcode::png($boleto_ID,$archivo,'L',10); 
+    //QRcode::png($boleto_ID,$archivo,'L',10); 
 
 
 ?>
@@ -29,7 +29,7 @@
         <main>
             <div class="boleto">
                 <?php
-                    echo "<center><img src='$archivo'></center>";
+                    //echo "<center><img src='$archivo'></center>";
                 ?>
             </div>
             <div class="controles-boleto">
