@@ -1,17 +1,3 @@
-<?php
-
-    //include('phpqrcode/qrlib.php');
-
-    //$ruta = 'QR_img/';
-    //$archivo = $ruta.uniqid().'.png';
-    //$boleto_ID = '12345';
-
-
-    //QRcode::png($boleto_ID,$archivo,'L',10); 
-
-
-?>
-
 <!DOCTYPE html>
 <html lang="es">
     <head>
@@ -27,8 +13,8 @@
             <p>MigGo</p>
         </nav>
         <main>
-            <div class="boleto">
-                    <center><img src='QR_img/612d904135a6b.png'></center>
+            <div class="imagen">
+                    <center><img class="imagen" src='img/mapa.png'></center>
             </div>
             <div class="controles-boleto">
                 <a href="home.php" class="boton">Volver</a>

@@ -162,6 +162,10 @@ main{
     height: 80vh;
 }
 
+.imagen{
+    width: 100vw;
+}
+
 .controles-boleto{
     display: block;
     margin-top: 1em;

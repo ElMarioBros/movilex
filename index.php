@@ -1,50 +1,72 @@
-<!--<html>
-    <head>
-    </head>
-    <body>
-        <style>
-            /*body {
-                background-image: url("landing.png");
-            }*/
-        </style>
-        <img src="landing/caborca.png" width="100%" alt="caborca">
-    </body>
-</html> -->
+<?php
+
+    if (isset($_POST['user'])){
+        $user = $_POST['user'];
+        $user = strtolower($user);
+        $pass = $_POST['pass'];
+        if($user == "abraham" and $pass == '12345678'){
+            header('Location: home.php');
+        }else{
+            $message = "Por favor verifique sus datos de ingreso";
+        }
+    }
+
+?>
 
 <!DOCTYPE html>
-<html lang="es">
+<html>
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://kit.fontawesome.com/13c822f27c.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="estilo.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>MigGo</title>
+        <script src="https://kit.fontawesome.com/13c822f27c.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     </head>
     <body>
-        <nav>
-            <p>MigGo</p>
-        </nav>
-        <main>
-            <div class="accesos-rapidos">
-                <div class="acceso">
-                    <div class="icono-acceso"><a href="#"><i class="fas fa-list"></i></a></div>
-                    <p class="descrip-acceso">Mis<br/>Ordenes</p>
+        <section class="hero is-info is-fullheight">
+            <div class="hero-body">
+                <div class="container">
+                <div class="columns is-centered">
+                    <div class="column is-5-tablet is-4-desktop is-3-widescreen">
+                        
+                    <form action="index.php" method="post" class="box">
+                        <?php
+                            if(isset($message)){
+                                echo "
+                                    <div class='notification is-warning'>
+                                        $message
+                                    </div>
+                                ";
+                            }
+                        ?>
+                        <div class="field">
+                        <label for="" class="label">Usuario</label>
+                        <div class="control has-icons-left">
+                            <input type="text" placeholder="usuario" class="input" name="user" required>
+                            <span class="icon is-small is-left">
+                            <i class="fa fa-user"></i>
+                            </span>
+                        </div>
+                        </div>
+                        <div class="field">
+                        <label for="" class="label">Contraseña</label>
+                        <div class="control has-icons-left">
+                            <input type="password" placeholder="*******" class="input" name="pass" required>
+                            <span class="icon is-small is-left">
+                            <i class="fa fa-lock"></i>
+                            </span>
+                        </div>
+                        </div>
+                        <div class="field">
+                        <button class="button is-link">
+                            Iniciar Sesión
+                        </button>
+                        </div>
+                    </form>
+                    </div>
                 </div>
-                <div class="acceso">
-                    <div class="icono-acceso"><a href="boleto.php"><i class="fas fa-qrcode"></i></a></div>
-                    <p class="descrip-acceso">Generar<br/>Código</p>
-                </div>
-                <div class="acceso">
-                    <div class="icono-acceso"><a href="#"><i class="fas fa-credit-card"></i></a></div>
-                    <p class="descrip-acceso">Recargar<br/>Saldo</p>
                 </div>
             </div>
-            
-            <div class="mi-saldo">
-                <div class="cabecera-saldo">Mi Saldo</div>
-                <div class="saldo-total">$  1320</div>
-            </div>
-        </main>
+        </section>
     </body>
 </html>
