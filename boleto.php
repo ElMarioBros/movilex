@@ -28,7 +28,7 @@
         </nav>
         <main>
             <div class="boleto">
-                    <center><img src='QR_img/612d904135a6b.png'></center>
+                    <center><img src='QR_img/qr.jpeg'></center>
             </div>
             <div class="controles-boleto">
                 <a href="home.php" class="boton">Volver</a>
